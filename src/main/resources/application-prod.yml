@@ -1,0 +1,10 @@
+ms-moodle:
+  port: 8024
+  path: /api/v1/moodle
+  complete-path: http://moodle:${ms-moodle.port}
+
+db-config:
+  domain: db-events:5432
+  name: atenea_events
+  user: postgres
+  password: VA@Atenea2023

@@ -1,0 +1,10 @@
+ms-moodle:
+  port: 8024
+  path: /api/v1/moodle
+  complete-path: http://moodle:${ms-moodle.port}
+
+db-config:
+  domain: atenea.cfkwry6gcjvj.us-east-1.rds.amazonaws.com
+  name: atenea_events
+  user: atenea_usr
+  password: 4Zn!UDBrgKt8J#sT
